@@ -1,6 +1,6 @@
 cask "marq" do
-  version "1.2.1"
-  sha256 "6a77fab41de2f2dad6979879b4fd95ded13f824afd3d3bd5f6f49f158eca6665"
+  version "1.2.2"
+  sha256 "3e3f4e2a210d57aeeafb049223dcaa58b08fee1b70299b140d019b18f51a49c3"
 
   url "https://github.com/jimbarritt/marq/releases/download/v#{version}/Marq.zip"
   name "Marq"
