@@ -1,28 +1,28 @@
 class Ccircuit < Formula
   desc "Draw a service as a circuit board from a machine-readable data map"
   homepage "https://github.com/jimbarritt/code-circuit"
-  version "0.2.0"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/jimbarritt/code-circuit/releases/download/v0.2.0/ccircuit-0.2.0-aarch64-apple-darwin.tar.gz"
-      sha256 "7220fa50890c519853471c5edecd233471f3171cdb86894b13cd5f7d54fb2749"
+      url "https://github.com/jimbarritt/code-circuit/releases/download/v0.3.0/ccircuit-0.3.0-aarch64-apple-darwin.tar.gz"
+      sha256 "1565f1b6df5874d80e4c95527873559362e4b4f4920c6cd254e1dc47e4bad8a7"
     end
     on_intel do
-      url "https://github.com/jimbarritt/code-circuit/releases/download/v0.2.0/ccircuit-0.2.0-x86_64-apple-darwin.tar.gz"
-      sha256 "94fa896e020a45c67274e8f73148419d721dab64719c6bfc3cd0f337cd8e9573"
+      url "https://github.com/jimbarritt/code-circuit/releases/download/v0.3.0/ccircuit-0.3.0-x86_64-apple-darwin.tar.gz"
+      sha256 "6a33ce1953da784285d41f80be2611227cbf886c6c1420a8f72eeffb23a29b0a"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/jimbarritt/code-circuit/releases/download/v0.2.0/ccircuit-0.2.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "23e0bc53f96b4f2433cfcc6d3cb3c14e513c6514887730b3c901493d836c962f"
+      url "https://github.com/jimbarritt/code-circuit/releases/download/v0.3.0/ccircuit-0.3.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "02c7be5ef0392c934f1fa08ff5f0ae0a6a16f5e7649131c73d5515e1445bcaa4"
     end
     on_intel do
-      url "https://github.com/jimbarritt/code-circuit/releases/download/v0.2.0/ccircuit-0.2.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "df36e75fea6c0674f5dc9669641b4eb18f8cb301c5a59a2c2201c09e11484138"
+      url "https://github.com/jimbarritt/code-circuit/releases/download/v0.3.0/ccircuit-0.3.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "6a3a88ad45bb32804720ce4f2183e96d27ca7bb7d018a1ffaf32850e9b4c7b5c"
     end
   end
 
