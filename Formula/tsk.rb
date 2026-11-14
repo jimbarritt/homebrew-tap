@@ -1,28 +1,28 @@
 class Tsk < Formula
   desc "Missions, threads and a Dolt ledger for agent sessions"
   homepage "https://github.com/jimbarritt/tsk"
-  version "0.64.0"
+  version "0.65.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/jimbarritt/tsk/releases/download/v0.64.0/tsk-0.64.0-aarch64-apple-darwin.tar.gz"
-      sha256 "bf0b5c9ecbf2c341adf7c51877ffe9e62604823098613d1b52ab96501c2169e9"
+      url "https://github.com/jimbarritt/tsk/releases/download/v0.65.0/tsk-0.65.0-aarch64-apple-darwin.tar.gz"
+      sha256 "1e03a7dbb383838f21acd72ec6763836608a8f95b497113f192d9758efa040a2"
     end
     on_intel do
-      url "https://github.com/jimbarritt/tsk/releases/download/v0.64.0/tsk-0.64.0-x86_64-apple-darwin.tar.gz"
-      sha256 "94008a4352e888c8c7fcc725113f6ebe1f732f3c90e239cd6006d6b19fc9bb0f"
+      url "https://github.com/jimbarritt/tsk/releases/download/v0.65.0/tsk-0.65.0-x86_64-apple-darwin.tar.gz"
+      sha256 "fa9044836a450612decef007ca34f69f49479e104eb2f20f5cbfb0d145a9f152"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/jimbarritt/tsk/releases/download/v0.64.0/tsk-0.64.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "7db8338e3590fbd79df935744d64ffb6b5ac62954b6ebfa78d19aba8e3d40c4a"
+      url "https://github.com/jimbarritt/tsk/releases/download/v0.65.0/tsk-0.65.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "57927287752420769456a3f2ea79bafc6f0019e2a2ff6d8f5299272064a9ccaa"
     end
     on_intel do
-      url "https://github.com/jimbarritt/tsk/releases/download/v0.64.0/tsk-0.64.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "85a423a7971bc8d31f10326cec1496f6725ef88d2e62461935ecc5e7cc9b68a0"
+      url "https://github.com/jimbarritt/tsk/releases/download/v0.65.0/tsk-0.65.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "435f286fa96ccd7db11b73f1f720d287373a0e551bbe6213a1fae2f41c33bee6"
     end
   end
 
